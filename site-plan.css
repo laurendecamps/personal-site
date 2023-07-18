@@ -86,7 +86,15 @@
   background-size: cover;
   position: relative;
 }
+.contact-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
 
+}
 /* Place text in the middle of the image */
 .hero-text {
   text-align: center;
