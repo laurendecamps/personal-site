@@ -17,29 +17,48 @@
     font-size: 30px;
   }
 
- .topnav {
-    background-color: #333;
+  .topnav {
+    position: relative;
+    background-color: #776871;
     overflow: hidden;
   }
   
+  /* Style the links inside the navigation bar */
   .topnav a {
-    align-items: center;
+    float: left;
     color: #776871;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
- 
+  
+  /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #f0f7ee;
+    background-color: #776871;
     color: black;
   }
   
+  /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #53474e;
+    background-color: #554950;
     color: white;
   }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
   footer {
     background-color: #776871;
     color: black;
