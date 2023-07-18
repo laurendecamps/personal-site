@@ -26,7 +26,7 @@
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #776871;
+    color: #f0f7ee;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,7 +35,7 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #f0f7ee;
+    background-color: #554950;
     color: black;
   }
   
@@ -58,7 +58,7 @@
   .topnav-right {
     float: right;
   }
-  body, html {
+ body, html {
     height: 100%;
 }
 
