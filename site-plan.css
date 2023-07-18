@@ -1,4 +1,4 @@
-body {
+.info {
     display: grid;
     padding: 2rem;
     grid-template-columns: 300px 1fr;
@@ -13,7 +13,7 @@ body {
     height: auto;
   }
   header {
-    background: #f0f7ee ;
+    background: #776871 ;
     font-size: 30px;
   }
 
