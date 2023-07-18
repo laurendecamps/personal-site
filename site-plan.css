@@ -58,7 +58,7 @@
   .topnav-right {
     float: right;
   }
-  html {
+  body, html {
     height: 100%;
 }
 
